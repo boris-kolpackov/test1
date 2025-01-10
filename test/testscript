@@ -1,6 +1,7 @@
 : basics
 :
-$* 'World' >'Hello, World!'
+$* 'World' >'Hello, World!';
+sleep 60
 
 : missing-name
 :
