@@ -6,7 +6,7 @@ int main (int argc, char* argv[])
 
   if (argc < 2)
   {
-    cerr << "error: missing name" << endl;
+    cerr << "error: missing name to greet" << endl;
     return 1;
   }
 
