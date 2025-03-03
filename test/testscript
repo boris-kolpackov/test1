@@ -7,5 +7,5 @@ $* 'World' >'Hello, World!'
 : missing-name
 :
 $* 2>>EOE != 0
-error: missing name
+error: missing name to greet
 EOE
