@@ -2,15 +2,15 @@
 
 int main (int argc, char* argv[])
 {
-#ifdef _WIN32
   using namespace std;
-#endif
 
+#if 0
   if (argc < 2)
   {
     cerr << "error: missing name to greet" << endl;
     return 1;
   }
+#endif
 
   cout << "Hello, " << argv[1] << '!' << endl;
 }
